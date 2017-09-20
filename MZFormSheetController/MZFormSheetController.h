@@ -59,7 +59,7 @@ extern NSString *const __nonnull MZFormSheetDidDismissNotification;
 typedef void(^MZFormSheetCompletionHandler)(UIViewController * __nonnull presentedFSViewController);
 typedef void(^MZFormSheetBackgroundViewTapCompletionHandler)(CGPoint location);
 typedef void(^MZFormSheetPresentationCompletionHandler)(MZFormSheetController * __nonnull formSheetController);
-typedef void(^MZFormSheetTransitionCompletionHandler)();
+typedef void(^MZFormSheetTransitionCompletionHandler)(void);
 
 @interface MZFormSheetWindow : UIWindow <MZAppearance>
 
